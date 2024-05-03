@@ -1,27 +1,65 @@
-# InterviewApp
+# Interview App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+Time 30 minutes. Can google if you get stuck! Run `ng serve` to start the app.
 
-## Development server
+## 1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Bug: The full list of users defined in the class `UsersPageComponent` aren't displaying in the users table.
+Fix: Make them display.
 
-## Code scaffolding
+## 2
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Task: Make users submitted through the users form append to the existing users table.
 
-## Build
+## 3
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Task: Prevent users with the same first name and surname being added twice to the users table (don't allow duplicates)
 
-## Running unit tests
+## 4 (Skippable)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Task: Display the commented out error message (in `users-form.component.html`) if an attempt to add an existing user is made.
 
-## Running end-to-end tests
+Notes: Don't worry about re-hiding the error message. Just make it initially hidden and then visible once an attempt to add a duplicate user is made.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 5 (Skippable)
 
-## Further help
+Task: Add validation to ensure blank names aren't submitted in the users form.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Notes: Don't worry about giving UI feedback on this validation. Just ensure that it's impossible to add a user without a first name/surname.
+
+## 6 (Skippable)
+
+Task: Make odd rows in the users table have background colour: #ccc
+
+## 7 (Skippable)
+
+Task: Make the users table searchable/filterable by name. 
+
+Assumptions: Names will always be simple, that is, inputted with first name first and then surname after, separated by a space. 
+
+Notes: Use the existing search input field to receive the search term.
+
+Acceptance critera:
+
+Existing Users: (Joe Bloggs, Jane Doe, Bill Bloggs, Jane Bloggs, Joe Doe)
+Search Term: "J" = (Joe Bloggs, Jane Doe, Jane Bloggs, Joe Doe)
+Search Term: "Joe" = (Joe Bloggs, Joe Doe)
+Search Term: "Joe B" = (Joe Bloggs)
+Search Term: "Bill Bloggs" = (Bill Blogs)
+Search Term: "J Bloggs" = (Joe Bloggs, Jane Bloggs) 
+
+## 7 (Skippable if skipping 8 too)
+
+Bug: Clicking the `Layout` nav link at the top doesn't navigate to the `LayoutPageComponent` page.
+Fix: Make the `Layout` link to the `LayoutPageComponent` page.
+
+## 8 (Skippable)
+
+Task: Make this layout in the layout page: https://www.google.com/search?sca_esv=d642a9eece08821a&sca_upv=1&q=css+layout&uds=AMwkrPt4t1EVCCdSUNw8MsX-M3cqWg7H6k6k18FebboQHyZRrA77GE1x0WlVt1Sgei3aTgiv02M24YiMIFZHn2n5iF_mm7EI0bWhM8FSVMRJwUzBAiICrhos1UOfQNAEYFz5I6bjPgSLwx_cS8_cqYFh-DNBvweGGa-Ezm4uTMmWVd1WvyWO5Q9UbfqEUegmcLzzmO5to8tvDtojLSNpzTAGlv-SPBbXRwc1N9Zdy2yytWfriys6vFM5W4Lag-zUyAQtQHSU8EX2zS2puoYeSYw0XrDaElEdlA&udm=2&prmd=ivnmbtz&sa=X&sqi=2&ved=2ahUKEwjIvbK46_GFAxVMX0EAHUtkCckQtKgLegQICxAB&biw=2560&bih=1271&dpr=1#vhid=XrMKVaQN2koroM&vssid=mosaic
+
+Notes: Don't worry about the borders or the text. Just make the layout and have the app bar purple, menu green, and content blue.
+
+
+
+
+

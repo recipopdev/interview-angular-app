@@ -1,0 +1,28 @@
+.users-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	form {
+		width: 300px;
+		.form-group {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			width: 100%;
+			gap: 10%;
+
+			label {
+				width: 76px;
+			}
+	
+			input {
+				flex: 1;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	
+}
