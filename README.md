@@ -1,6 +1,6 @@
 # Interview App
 
-Time 30 minutes. Can google if you get stuck! Run `ng serve` to start the app.
+Time 30 minutes. Can google if you get stuck! Run `npm i` followed by `ng serve` to start the app.
 
 ## 1
 
@@ -42,18 +42,23 @@ Notes: Use the existing search input field to receive the search term.
 Acceptance critera:
 
 Existing Users: (Joe Bloggs, Jane Doe, Bill Bloggs, Jane Bloggs, Joe Doe)
+
 Search Term: "J" = (Joe Bloggs, Jane Doe, Jane Bloggs, Joe Doe)
+
 Search Term: "Joe" = (Joe Bloggs, Joe Doe)
+
 Search Term: "Joe B" = (Joe Bloggs)
+
 Search Term: "Bill Bloggs" = (Bill Blogs)
+
 Search Term: "J Bloggs" = (Joe Bloggs, Jane Bloggs) 
 
-## 7 (Skippable if skipping 8 too)
+## 8 (Skippable if skipping 9 too)
 
-Bug: Clicking the `Layout` nav link at the top doesn't navigate to the `LayoutPageComponent` page.
-Fix: Make the `Layout` link to the `LayoutPageComponent` page.
+Bug: Clicking the `About` nav link at the top doesn't navigate to the `AboutPageComponent` page.
+Fix: Make the `About` link to the `AboutPageComponent` page.
 
-## 8 (Skippable)
+## 9 (Skippable)
 
 Task: Make this layout in the layout page: https://www.google.com/search?sca_esv=d642a9eece08821a&sca_upv=1&q=css+layout&uds=AMwkrPt4t1EVCCdSUNw8MsX-M3cqWg7H6k6k18FebboQHyZRrA77GE1x0WlVt1Sgei3aTgiv02M24YiMIFZHn2n5iF_mm7EI0bWhM8FSVMRJwUzBAiICrhos1UOfQNAEYFz5I6bjPgSLwx_cS8_cqYFh-DNBvweGGa-Ezm4uTMmWVd1WvyWO5Q9UbfqEUegmcLzzmO5to8tvDtojLSNpzTAGlv-SPBbXRwc1N9Zdy2yytWfriys6vFM5W4Lag-zUyAQtQHSU8EX2zS2puoYeSYw0XrDaElEdlA&udm=2&prmd=ivnmbtz&sa=X&sqi=2&ved=2ahUKEwjIvbK46_GFAxVMX0EAHUtkCckQtKgLegQICxAB&biw=2560&bih=1271&dpr=1#vhid=XrMKVaQN2koroM&vssid=mosaic
 

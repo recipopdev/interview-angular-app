@@ -9,9 +9,11 @@ styleUrls: ['./users-page.component.scss']
 export class UsersPageComponent {
 
 	public users: User[] = [
-		{ firstName: 'John', surname: 'Doe'},
+		{ firstName: 'Bill', surname: 'Bloggs'},
 		{ firstName: 'Jane', surname: 'Doe'},
 		{ firstName: 'Joe', surname: 'Bloggs'},
+		{ firstName: 'Jane', surname: 'Bloggs'},
+		{ firstName: 'Joe', surname: 'Doe'},
 	];
 
 	constructor() {
